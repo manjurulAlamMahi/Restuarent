@@ -1,0 +1,532 @@
+/* -------------------------------------
+            common css start
+--------------------------------------- */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+ul,ol{
+    list-style: none;
+}
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.clr{
+    clear: both;
+}
+.common_background{
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    padding: 100px 0px;
+}
+.common_head{
+    text-align: center;
+}
+.common_head h2{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #cc9900;
+    display: block;
+    padding-bottom: 10px;
+}
+.common_headII{
+    text-align: center;
+}
+.common_headII h2{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #fff;
+    display: block;
+    padding-bottom: 10px;
+}
+/* -------------------------------------
+            common css end
+--------------------------------------- */
+
+
+
+/* -------------------------------------
+            navigation css start
+--------------------------------------- */
+#menu{
+    background: linear-gradient( to top, transparent 0% , #000 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.menu_part{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu_left{
+    width: 20%;
+}
+.menu_right{
+    width: 80%;
+}
+.main_logo{
+    line-height: 110px;
+}
+.menu_right ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.menu_right ul li a{
+    font-family: 'Gentium Book Basic', serif;
+    font-weight: 700;
+    font-size: 21px;
+    color: #fff;
+    line-height: 110px;
+    border-top: 3px solid transparent;
+    padding: 0px 25px;
+    transition: all linear .3s;
+}
+.menu_right ul li a:hover{
+    border-top: 3px solid rgb(204, 204, 204);
+}
+
+/* -------------------------------------
+            navigation css end
+--------------------------------------- */
+
+
+
+/* -------------------------------------
+            banner css start
+--------------------------------------- */
+
+#banner{
+    padding-top: 220px;
+    padding-bottom: 135px;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.banner_text{
+    text-align: center;
+    justify-content: center;
+}
+.banner_text h1{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 90px;
+    color: #fff;
+    text-transform: lowercase;
+}
+.banner_text h1 span{
+    display: block;
+}
+.btn1{
+    margin-right: 13px;
+}
+.btn2{
+    margin-left: 13px;
+}
+.banner_text a{
+    line-height: 55px;
+    padding: 0px 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.28);
+    transition: all linear .3s;
+    margin-top: 35px;
+}
+.banner_text a:hover{
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.28);
+}
+.banner_img{
+    margin-top: 32px;
+}
+/* -------------------------------------
+            banner css end
+--------------------------------------- */
+
+
+
+/* -------------------------------------
+            food css start
+--------------------------------------- */
+
+.food_part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.food_text{
+    width: 33%;
+    text-align: center;
+    margin-left: 110px;
+}
+.food_img{
+    width: 49.58%;
+    margin-right: 80px;
+    margin-top: -60px;
+}
+.food_text p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4c4c4c;
+    line-height: 24px;
+    margin-top: 30px;
+}
+.food_text .signature{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+/* -------------------------------------
+            food css end
+--------------------------------------- */
+
+
+
+/* -------------------------------------
+            ingredients css start
+--------------------------------------- */
+
+#ingredients{
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    padding: 100px 0px;
+}
+.ingredients_part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.ingredients_ovrly{
+    background: rgba(0, 0, 0, 0.67);
+    width: 570px;
+    height: 557px;
+    text-align: center;
+    margin-right: 40px;
+    transform: scale(0);
+    transition: all linear .3s;
+}
+.ingredients_ovrly p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+    padding: 0px 70px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.ingredients_ovrly .common_headII{
+    padding-top: 80px;
+}
+#ingredients:hover .ingredients_ovrly{
+    transform: scale(1);
+}
+
+/* -------------------------------------
+            ingredients css end
+--------------------------------------- */
+
+
+
+/* -------------------------------------
+           food menu css start
+--------------------------------------- */
+
+.foodmenu_part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.food_clm1 , .food_clm2{
+    width: 430px;
+}
+.menu{
+    width: 430px;
+    padding-bottom: 65px;
+}
+.menu h3{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 21px;
+    color: #c89f2d;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #c89f2d;
+    padding-top: 35px;
+}
+.menu h3 span{
+    float: right;
+}
+.menu p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4c4c4c;
+    padding-top: 10px;
+}
+/* -------------------------------------
+           food menu css end
+--------------------------------------- */
+
+
+
+/* -------------------------------------
+            review css start
+--------------------------------------- */
+
+#review{
+    padding: 100px 0px;
+}
+.review_part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.review_ovrly{
+    width: 770px;
+    height: 557px;
+    background: rgba(0, 0, 0, 0.67);
+    text-align: center;
+    transform: scale(0);
+    transition: all linear .3s;
+}
+.review_ovrly p{
+    font-family: 'Gentium Book Basic', serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #dde0df;
+    line-height: 45px;
+    padding: 0px 80px;
+    padding-top: 25px;
+}
+.review_ovrly p .place{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    display: block;
+}
+.review_ovrly .dot{
+    font-size: 90px;
+    color: #f2f4f4;
+    padding-right: -10px;
+}
+.review_ovrly .common_headII{
+    padding-top: 70px;
+}
+#review:hover .review_ovrly{
+transform: scale(1);
+}
+
+/* -------------------------------------
+            review css end
+--------------------------------------- */
+
+
+/* -------------------------------------
+            booking css start
+--------------------------------------- */
+
+
+.booking_part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.booking_img , .booking_text{
+    width: 610px;
+}
+.booking_img ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.booking_img ul li{
+    width: 270px;
+    margin-left: 30px;
+}
+.booking_img ul li img{
+    max-width: 100%;
+    width: 100%;
+}
+.booking_top{
+    text-align: center;
+}
+.booking_text p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4c4c4c;
+    line-height: 24px;
+    padding: 0px 90px;
+    padding-top: 28px;
+}
+.booking_text p span{
+    display: block;
+    padding-top: 20px;
+}
+
+.booking_bottom form .book_user{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.book_user .input_inbox label{
+    display: block;
+}
+
+
+.book_user .input_inbox input{
+    height: 35px;
+    width: 198px;
+}
+
+.input_inbox .details{
+    color: #c89f2d ;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 5px;
+}
+
+.input_inbox input{
+    color: #7c7c7c;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    background: rgba(255, 255, 255, 0.301) ;
+    border: 1px solid #c8c6c6;
+    padding-left: 15px;
+    padding-bottom: 6px ;
+    background: none;
+    appearance: textfield;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.input_inbox input:hover{
+    border-color: #c89f2d;
+}
+
+.input_inbox:nth-child(3),
+.input_inbox:nth-child(4){
+    margin-top: 25px;
+}
+
+.book_btn input{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 60px;
+    line-height: 35px;
+    background: #c89f2d;
+    border: 1px solid #c89f2d;
+    cursor: pointer;
+}
+
+.book_btn  {
+	margin-top: 30px;
+	margin-left: 207px;
+}
+
+/* -------------------------------------
+            booking css end
+--------------------------------------- */
+
+
+
+/* -------------------------------------
+            footer css start
+--------------------------------------- */
+
+#footer{
+    background: #191919;
+    padding: 60px;
+}
+.footer_part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer_text , .footer_opening , .footer_location{
+    width: 370px;
+    text-align: center;
+}
+.footer_text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.footer_text p span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    display: block;
+}
+.footer_opening p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+.footer_opening p span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+}
+.footer_opening .common_headII{
+    padding-bottom: 10px;
+}
+.footer_location h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.footer_location h3 span{
+    display: block;
+}
+.footer_opening i{
+    color: #fff;
+    font-size: 16px;
+    padding: 50px 5px 0px;
+}
+.footer_location i{
+    color: #fff;
+    font-size: 16px;
+    padding: 50px 5px 0px;
+}
+
+
+/* -------------------------------------
+            footer css end
+--------------------------------------- */
